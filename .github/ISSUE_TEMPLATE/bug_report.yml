@@ -1,0 +1,16 @@
+name: Bug report
+description: Something is broken
+title: "bug: "
+labels: ["type: bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, what happened instead, and how to reproduce it.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
